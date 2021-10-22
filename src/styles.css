@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --clr-primary: #32C05A;
+    --clr-secondary: blue;
+    --clr-accent: purple;
+    --clr-warn: orange;
+    --font-normal: 0.9rem;
+    --font-clr-normal: rgba(0, 0, 0, 0.404);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a, ul {
+    text-decoration: none;
+}
+
